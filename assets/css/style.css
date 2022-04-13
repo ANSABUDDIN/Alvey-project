@@ -1,0 +1,445 @@
+*{
+  margin: 0%;
+  padding:0px;
+
+}
+/* ============================================ validator page css ============================================ */
+
+ /* Nav Bar  */
+
+body{
+  background-color: #000000;
+}
+.nav_bg{
+  background-image: url("/Assets/img/Background_header_2.jpg");
+  background-position: center;
+  background-size: 100% 100%; 
+}
+
+
+
+
+.nav-link {
+  color: white !important;
+}
+
+.nav-link:hover {
+  color: yellow !important;
+  transition: 0.6s ease-in !important;
+}
+.fs-7{
+  font-size: 13px;
+}
+.dropdown-menu{
+  width: auto !important;
+  height: auto !important;
+  clip-path: polygon(100% 0, 100% 84%, 85% 100%, 0 100%, 0 0) !important;
+  background-color: #0c0c19;
+  color: white !important;
+
+
+
+}
+.dropdown-item {
+  display: block;
+  width: 100%;
+  padding: 0.25rem 1rem;
+  clear: both;
+  font-weight: 400;
+  color:white;
+  text-align: inherit;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+}
+.dropdown-item:hover{
+  background-color: #FFFF00 !important;
+}
+.text-yellow{
+  color:#FFFF00 !important;
+} 
+
+.dropdown-menu-2{
+  width: 400px !important;
+  height:auto !important;
+  clip-path: polygon(100% 0, 100% 84%, 85% 100%, 0 100%, 0 0) !important;
+  background-color: #0c0c19;
+  color: white !important;
+}
+
+
+
+@media (max-width:375px) {
+  .dropdown-menu-2{
+    width: auto !important;
+    height:auto !important;
+    clip-path: polygon(100% 0, 100% 84%, 85% 100%, 0 100%, 0 0) !important;
+    background-color: #0c0c19;
+    color: white !important;
+  }
+}
+
+/* ============================================ All background css ============================================ */
+.sec_one{
+  background-image: url("/Assets/img/section_one_png.png");
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+.sec-two{
+  background-image: url("/Assets/img/alvey_word_transperent.png");
+  background-position: center;
+  background-size:100% 100%; 
+  background-repeat: no-repeat;
+  /* height: 400px; */
+  display: flex ;
+  justify-content:center;
+  align-items: center;
+
+}
+.sec-three{
+  background-image: url("/Assets/img/sec-three.png");
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+.full-bg{
+  background-image: url("/Assets/img/Alvey-Validate-BG.png");
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+  
+
+
+
+
+
+/* big card css */
+
+.polygon__clip21:hover .polygon__clip {
+  clip-path: polygon(100% 0, 100% 87%, 92% 100%, 0 100%, 0 0);
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  right: 10px;
+  bottom: 10px;
+  transition: 0.6s;
+  transition-timing-function: linear;
+}
+
+.polygon__clip21 {
+  clip-path: polygon(100% 0, 100% 87%, 92% 100%, 0 100%, 0 0);
+  width: 500px;
+  height: 350px;
+  position: relative;
+  background: #FFFF00;
+  border: solid 1px black;
+}
+
+.polygon__clip {
+  background-color: #090917;
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  right: -2px;
+  bottom: -1px;
+  border: none;
+}
+
+.button__1 {
+  background-color: #262638;
+  color: white;
+  border-radius: 25px;
+  padding: 12px 20px 12px 20px !important;
+  width: 150px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.button__1:hover {
+  background-color: #FFFF00;
+  box-shadow: 0px 0px 20px 1px rgba(255, 255, 0, 0.33);
+  -webkit-box-shadow: 0px 0px 20px 1px rgba(255, 255, 0, 0.33);
+  -moz-box-shadow: 0px 0px 20px 1px rgba(255, 255, 0, 0.33);
+}
+
+.para__1 {
+  width: 43ch;
+  font-size: 18px !important;
+  color: #A6A6A8;
+
+}
+
+@media (max-width:375px) {
+  .polygon__clip {
+    width: 300px !important;
+  }
+
+  .polygon__clip21 {
+    width: 300px !important;
+  }
+
+  .para__1 {
+    width: 100% !important;
+  }
+}
+
+ /* Wallet Cards section */
+
+.polygon__clip2_T {
+  clip-path: polygon(100% 0, 100% 84%, 85% 100%, 0 100%, 0 0);
+  width: 320px;
+  height: 320px;
+  color: white;
+  border: none;
+  background-color: #090917;
+ 
+
+}
+
+.heading__sec2_T_2 {
+  font-size: 27px !important;
+  color: white;
+  letter-spacing: -1px;
+  font-weight: bold;
+
+}
+
+.para__1_T {
+  width: 30ch;
+  font-size: 14px !important;
+  color: #a8a8a8;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+.button__1_T {
+  background-color: #FFFF00;
+  color: black;
+  border-radius: 25px;
+  padding: 12px 20px 12px 20px !important;
+  width: 150px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.button__1_T:hover {
+  background-color: #FFFF00;
+  box-shadow: 0px 0px 20px 1px rgba(255, 255, 0, 0.33);
+  -webkit-box-shadow: 0px 0px 20px 1px rgba(255, 255, 0, 0.33);
+  -moz-box-shadow: 0px 0px 20px 1px rgba(255, 255, 0, 0.33);
+}
+
+
+/* Transparent Card Section  */
+
+.trasparent__card {
+  clip-path: polygon(100% 0, 100% 84%, 85% 100%, 0 100%, 0 0) !important;
+  background: rgba(19, 18, 18, 0.433);
+  position: relative;
+  margin-top: 30px;
+  /* top:-33px; */
+
+  box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+  backdrop-filter: blur(18.1px);
+  -webkit-backdrop-filter: blur(19.1px);
+  border: 1px solid rgba(64, 62, 62, 0.16);
+  width: 330px;
+  height: 220px;
+
+}
+
+.heading__sec2_T {
+  padding-top: 20px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.trasparent__card {
+  clip-path: polygon(100% 0, 100% 84%, 85% 100%, 0 100%, 0 0) !important;
+
+
+}
+
+/* accordion section */
+
+.accordion-button {
+  background-color: #03030C;
+  color: white;
+  border: none !important;
+  padding: 30px 0px;
+}
+
+.accordion-item {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: .5px solid #FFFF00 !important;
+  border-color: #FFFF00;
+}
+
+.accordion-collapse {
+  background-color: #03030C;
+  color: white;
+}
+
+.accordion-button::after {
+  background-image: url(../img/coolicon.svg);
+
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url(../img/coolicon.svg);
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #03030C;
+  color: white;
+
+}
+
+.accordion-button:focus {
+  border: none;
+  box-shadow: none;
+}
+
+
+
+
+/* ============================================ card DOCUMENT PAGE css ============================================ */
+
+.section__2_D {
+  background-color: #f9f9f9;
+}
+
+.polygon__clip2 {
+  clip-path: polygon(100% 0, 100% 84%, 85% 100%, 0 100%, 0 0);
+  width: 330px;
+  height: 320px;
+  color: black;
+  background-color: #FFF;
+  border: none;
+
+}
+.button__1_D a{
+  text-decoration: none;
+  color: black;
+}
+.button__1_D a:hover{
+  color: black;
+}
+
+.heading__sec2_D {
+  font-size: 27px !important;
+  color: #000000;
+  letter-spacing: -1px;
+  font-weight: bold;
+
+}
+
+.para__1_D {
+  width: 30ch;
+  font-size: 14px !important;
+  color: #a8a8a8;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+.button__1_D {
+  background-color: #FFFF00;
+  color: black;
+  border-radius: 25px;
+  padding: 12px 20px 12px 20px !important;
+  width: 150px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+
+/* ============================================  DOCUMENT 2 PAGE css ============================================ */
+
+.mini_box a{
+  color: #a5a5a8;
+  text-decoration: none;
+
+
+}
+.mini_box a:hover {
+color: yellow;
+}
+
+
+ /* Footer  */
+
+.footer {
+ 
+  color: white;
+  background-image: url("/Assets/img/Background2_footer.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 50px 0px;
+}
+
+
+.foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.foot_icons i, .foot_icons img {
+
+  color: #000;
+  background-color: yellow;
+  border-radius: 50%;
+  box-shadow: 0px 0px 0px 10px yellow;
+  -webkit-box-shadow: 0px 0px 0px 10px yellow;
+  -moz-box-shadow: 0px 0px 0px 10px yellow;
+  font-size: 18px !important;
+}
+
+.second_footer {
+  background-color: #000;
+  padding: 17px 0px;
+  color: white;
+}
+
+.second_footer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer p, .footer i, .footer img {
+  cursor: pointer;
+}
+
+.basic {
+  color: white;
+  border: 1px solid #52BE71;
+  padding: 5px 25px;
+  background-color: #52BE71;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.basic:hover {
+  background-color: transparent;
+  color: #52BE71;
+}
+/* ico page css */
+.bit-coin-img {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+ 
+}

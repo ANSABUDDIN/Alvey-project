@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alvex</title>
+    <!-- ================================== BOOTSTRAP CDN ================================= -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="Assets/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="Assets/css/style.css">
+</head>
+
+<body>
+   <!-- nav bar / banner -->
+    <section class="sec_one">
+        <nav class="navbar navbar-expand-lg navbar-dark text-white">
+            <div class="container py-3">
+                <a class="navbar-brand" href="#">
+                    <img src="Assets/img/alvey (2).png" style="width: 70px; height: 70px; " class="img-fluid" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto  navbar__list ">
+                        <li class="nav-item dropdown text-center text-lg-start">
+                            <a class="nav-link mx-3 dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Community
+                            </a>
+                            <ul class="dropdown-menu  w-100" aria-labelledby="navbarDropdown">
+                                <div class="row">
+                                    <div class="col-12 text-white text-center">
+                                        <li>
+                                            <a class="dropdown-item my-2 " href="#">Twitter</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item my-2" href="#">Telegram</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item my-2" href="#">Reddit</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item my-2" href="#">Discord</a>
+                                        </li>
+                                    
+                                    </div>
+                                </div>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link mx-3 dropdown-toggle  text-center text-lg-start" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Developers
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-2 " aria-labelledby="navbarDropdown">
+                                <div class="row p-4 ">
+                                    <div class="col-lg-6  text-center  ">
+                                        <li>
+                                            <a class="dropdown-item fw-bold" href="#">Resources</a>
+                                        </li>
+                                        <li>
+                                            <hr class="dropdown-divider mx-2">
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item  fs-7" href="#">Alvey Chain</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item fs-7" href="#">ARC-20 tokens</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item fs-7" href="#">Defi & Alvey</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item fs-7" href="#">NFT's</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item fs-7" href="#">Gaming</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item fs-7" href="#">Ecosystem</a>
+                                        </li>
+                                    </div>
+                                    <div class="col-lg-6 text-center">
+                                        <li>
+                                            <a class="dropdown-item fw-bold" href="#">Learning</a>
+                                        </li>
+                                        <li>
+                                            <hr class="dropdown-divider mx-2">
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item fs-7" href="#">About Alvey</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item fs-7" href="#">Alvey Wallet</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item fs-7" href="#">Web 3</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item fs-7" href="#">Docs</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item fs-7 text-yellow " href="#">info@alvey.com</a>
+                                        </li>
+                                    </div>
+                                </div>
+                            </ul>
+                        </li>
+                        <li class="nav-item mx-3 ">
+                            <a class="nav-link text-center text-lg-start"  href="card.html">Explore</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link text-center text-lg-start"  href="ico.html">ICO</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link text-center text-lg-start"  href="index.html">Validators</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- banner -->
+        <section class="banner">
+            <div class="container py-2 py-lg-5 py-md-5">
+                <div class="row ">
+                    <div data-aos="zoom-out-right" class="col-12 pt-lg-5 pt-2 pt-md-5 text-center  mx-auto">
+                        <h1 class="text-white ">
+                            Lorem Ipsum is
+
+                            simply dummy
+                            <br>
+                            text of
+
+                            printing industry.
+                        </h1>
+                        <p style="font-size: 15px;" class="text-secondary py-3 my-4">
+                            Lorem Ipsum is simply dummy text of the printing and
+                            <br>
+                            typesetting industry.
+                        </p>
+                        <button class="btn button__1_T mt-2">Validate Now</button>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    </section>
+
+    <section class="sec-two" > 
+   <div class="container  text-white text-lg-start text-md-start text-center ">
+       <div class="row">
+           <div data-aos="zoom-out-right"class="col-12 col-lg-6 col-md-6">
+            <div class="my-5 mt-4" >
+                <h1 class="text-white">
+                    Lorem Ipsum is
+                    <br>
+                    simply dummy text of
+
+                    printing industry.
+                </h1>
+                <p style="font-size: 15px;" class="text-secondary">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    <br>
+                    typesetting industry.
+                </p>
+            </div>
+           </div>
+           <div data-aos="zoom-out-right" class="col-12 col-lg-6 col-md-6">
+            <div class="mx-3 mt-4">
+                <h1 class="fw-bolder" > Comming Soon</h1>
+                <p class="text-muted">
+                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam necessitatibus sapiente labore fugiat voluptate fugit nesciunt quasi reiciendis voluptatem quae nulla qui veritatis recusandae, ipsa reprehenderit non rerum, cupidita
+                </p>
+            </div>
+                    <div class="counter  d-flex mx-5  wow animate_animated animate_fadeInRight"
+                    data-wow-duration="2s">
+                    <h1 className='text-white fw-boler' style="width: max-content; display: flex;">
+                        <div class="d-flex justify-content-center align-items-center flex-column" style="margin: 0px 10px;">
+                            <span id="days" class="text-white ">02<br>
+                            </span>
+                            <p style="font-size: 15px;">Days</p>
+                        </div>
+                        <div class="d-flex justify-content-center align-items-center flex-column" style="margin: 0px 10px;">
+                            <span id="hours">10<br>
+                            </span>
+                            <p style="font-size: 15px;">Hours</p>
+                        </div>
+                        <div class="d-flex justify-content-center align-items-center flex-column" style="margin: 0px 10px;">
+                            <span id="min">30<br>
+                            </span>
+                            <p style="font-size: 15px;">Minutes</p>
+                        </div>
+                        <div class="d-flex justify-content-center align-items-center flex-column" style="margin: 0px 10px;">
+                            <span id="sec">15<br>
+                            </span>
+                            <p style="font-size: 15px;">Seconds</p>
+                        </div>
+                    </h1>
+                </div>
+    
+       
+           </div>
+
+       </div>
+   </div>
+</section>
+   
+    <!-- cards -->
+<section class="sec-three">
+    <section class="section__wallet ">
+        <div class="container">
+            <div class="py-5">
+                <h1 class="text-white text-center heading__sec2">Lorem Ipsum</h1>
+                <p class="text-secondary text-center mt-1">
+                    Lorem ipsum is simply dummy text of the printing and <br> typesetting
+                    industry.
+                </p>
+            </div>
+            <div class="row justify-content-evenly flex-wrap align-items-center">
+                <div data-aos="zoom-out-right" class="col-lg-4 card polygon__clip2_T  ps-5 pt-4 my-3 my-lg-0">
+                    <div class="hover__2 d-flex flex-column  hover1">
+                        <img src="Assets/img/card_up_img.png" style="height: 40px; width: 40px;" class="my-3" alt="">
+                        <h1 class=" heading__sec2_T_2">Lorem Ipsum</h1>
+                        <p class="para__1_T mt-1">
+                            Lorem ipsum is simply dummy text of the printing
+                            industry.
+                        </p>
+                        <button class="btn button__1_T mt-3">Lorem ipsum</button>
+                    </div>
+                </div>
+                <div data-aos="zoom-out-right" class="col-lg-4 card polygon__clip2_T  ps-5 pt-4 my-3 my-lg-0">
+                    <div class="hover__2 d-flex flex-column  hover1">
+                        <img src="Assets/img/card_up_img.png" style="height: 40px; width: 40px;" class="my-3" alt="">
+                        <h1 class=" heading__sec2_T_2">Lorem Ipsum</h1>
+                        <p class="para__1_T mt-1">
+                            Lorem ipsum is simply dummy text of the printing
+                            industry.
+                        </p>
+                        <button class="btn button__1_T mt-3">Lorem ipsum</button>
+                    </div>
+                </div>
+                <div data-aos="zoom-out-right" class="col-lg-4 card polygon__clip2_T  ps-5 pt-4 my-3 my-lg-0">
+                    <div class="hover__2 d-flex flex-column  hover1">
+                        <img src="Assets/img/card_up_img.png" style="height: 40px; width: 40px;" class="my-3" alt="">
+                        <h1 class=" heading__sec2_T_2">Lorem Ipsum</h1>
+                        <p class="para__1_T mt-1">
+                            Lorem ipsum is simply dummy text of the printing
+                            industry.
+                        </p>
+                        <button class="btn button__1_T mt-3">Lorem ipsum</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- Accordion -->
+    <section class="accordion">
+        <div class="container my-5">
+            <div class="row ">
+                <div class=" col-12" data-aos="zoom-out-right">
+                    <div class="my-5">
+                        <h1 class="my-3 text-white fw-bold" > Lorem Ipsum is dummy </h1>
+                        <div class="accordion" id="myAccordion">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button type="button" class="accordion-button collapsed  px-3 "
+                                        data-bs-toggle="collapse" data-bs-target="#collapseOne">What is NFT?</button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse  "
+                                    data-bs-parent="#myAccordion">
+                                    <div class="card-body ">
+                                        <p class="text-white ">
+                                            NFT stands for non-fungible token. What does non-fungible mean? This
+                                            means that a unit is non-interchangeable so that it can be one of a kind,
+                                            but can also be sold and
+                                            traded to other owners. As a token these items, which can include pictures,
+                                            videos, and audio can
+                                            be bought and traded all across the block chain. These tokens can be stored
+                                            in your wallet or sent
+                                            to other wallets depending on what you want to do with them. An NFT like a
+                                            Hold Dao is a piece of
+                                            digital artwork that you can own, but also has many other utilities
+                                            including Rugifying and AR.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button type="button" class="accordion-button collapsed px-3 "
+                                        data-bs-toggle="collapse" data-bs-target="#collapseTwo">How do I buy a Hold Dao
+                                        NFT?</button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse "
+                                    data-bs-parent="#myAccordion">
+                                    <div class="card-body">
+                                        <p class="text-white ">
+                                        <ol class="text-white">
+                                            <li>You need to have an Eth wallet since Hold Dao is on the Ethereum
+                                                blockchain (ERC1155)</li>
+                                            <li>
+                                                Use various applications like Binance and Coinbase to create a wallet
+                                            </li>
+                                            <li>
+                                                Connect the MetaMask extension
+                                                <a
+                                                    href="(https://blog.wetrust.io/how-to-install-and-use-metamask-7210720ca047)">Click
+                                                    This</a>
+                                                to your wallet
+                                            </li>
+                                            <li>
+                                                Pre-mint your own “state of the art” Hold Dao once it is time to launch!
+                                            </li>
+                                        </ol>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button type="button" class="accordion-button collapsed px-3"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseThree">When is the
+                                        sale?</button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    data-bs-parent="#myAccordion">
+                                    <div class="card-body">
+                                        <p class="text-white ">
+                                            Mint date for the NFTs will be____. Claim & Reroll dates for them will be
+                                            ____
+                                            </a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingfour">
+                                    <button type="button" class="accordion-button collapsed px-3"
+                                        data-bs-toggle="collapse" data-bs-target="#collapsefour">How can I be sure that
+                                        you will donate?</button>
+                                </h2>
+                                <div id="collapsefour" class="accordion-collapse collapse"
+                                    data-bs-parent="#myAccordion">
+                                    <div class="card-body">
+                                        <p class="text-white ">
+                                            We will be donating 5% of our sales for kids in need tha don’t have access
+                                            to some of the toys we
+                                            have. You can visit ____ to check out more about the charity. We will be
+                                            sure to send out updates
+                                            on our website regarding donations once each collection drop has been
+                                            completed.
+                                            </a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+    <!-- image / text -->
+    <section class="">
+    <div class="container">
+        <div class="row ">
+            <div data-aos="zoom-out-right" class="col-12 col-lg-6 pt-5 col-md-6 text-lg-start text-center ">
+                <div class="my-5">
+                    <h1 class="text-white">
+                        Lorem Ipsum is simply 
+                        dummy text industry.
+                    </h1>
+                    <p style="font-size: 15px;" class="text-secondary">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting 
+                        industry. Lorem Ipsum has been the industry's standard dummy 
+                        text ever since the 1500s,Lorem Ipsum is simply dummy text of the 
+                        printing and typesetting industry. Lorem Ipsum has been the 
+                        industry's standard dummy text ever since the 1500s,
+                    </p>
+                </div>
+            </div>
+            <div data-aos="zoom-out-right" class="col-12   text-center text-lg-start text-md-start    col-lg-6 col-md-6">
+<img src="assets/img/BITBCN TOKEN - LAUNCHPAD.png" class="bit-coin-img img-fluid" alt="">
+            </div>
+        </div>
+    </div>
+    </section>
+</section>
+   <!-- footer sec -->
+   <section class="footer__al">
+    <div>
+      <div class="footer mb-0">
+          <div class="foot container">
+              <div class="my-3 mx-2">
+                  <p class="fw-bold">Lorem Ipsum Dummy</p>
+                  <p class="fs-7">Lorem  Dummy</p>
+                  <p class="fs-7">Ipsum Dummy</p>
+                  <p class="fs-7">Lorem Ipsum</p>
+                  <p class="fs-7">Lorem Dummy</p>
+              </div>
+              <div class="my-3 mx-2">
+                  <p class="fw-bold">Lorem Ipsum Dummy</p>
+                  <p class="fs-7">Lorem  Dummy</p>
+                  <p class="fs-7">Ipsum Dummy</p>
+                  <p class="fs-7">Lorem Ipsum</p>
+                  <p class="fs-7">Lorem Dummy</p>
+              </div>
+              <div class="my-3 mx-2">
+                  <p class="fw-bold">Lorem Ipsum Dummy</p>
+                  <p class="fs-7">Lorem  Dummy</p>
+                  <p class="fs-7">Ipsum Dummy</p>
+                  <p class="fs-7">Lorem Ipsum</p>
+                  <p class="fs-7">Lorem Dummy</p>
+              </div>
+              <div class="my-3 mx-2">
+                  <p class="fw-bold">Lorem Ipsum</p>
+                  <p class="fs-7" style="width: 25ch">
+                      Stay connected with us and let's know more about cryptocurrency and more explorer us on this
+                  </p>
+                  <div class="foot_icons mt-4">
+                      <i class="fab fa-reddit fs-4 mx-3"></i>
+                      <i class="fab fa-twitter fs-4 mx-3"></i>
+                      <i class="fab fa-telegram fs-4 mx-3"></i>
+                      <i class="fab fa-discord fs-4 mx-3"></i>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  </section>
+
+
+    <!-- java script link -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+   
+</body>
+
+</html>
+<script>
+    AOS.init();
+  </script>
+<script>
+    var days = 0;
+    var hours = 0;
+    var min = 0;
+    var sec = 0;
+    // const [days, setGet_days] = useState(0);
+    // const [get_hours, setGet_hours] = useState(0);
+    // const [get_min, setGet_min] = useState(0);
+    // const [get_sec, setGet_sec] = useState(0);
+
+    const second = 1000,
+        minute = second * 60,
+        hour = minute * 60,
+        day = hour * 24;
+
+    //I'm adding this section so I don't have to keep updating this pen every year :-)
+    //remove this if you don't need it
+    let today = new Date(),
+        dd = String(today.getDate()).padStart(2, "0"),
+        mm = String(today.getMonth() + 1).padStart(2, "0"),
+        yyyy = today.getFullYear(),
+        nextYear = yyyy + 1,
+        dayMonth = "02/30/",
+        birthday = dayMonth + yyyy;
+
+    today = mm + "/" + dd + "/" + yyyy;
+    if (today > birthday) {
+        birthday = dayMonth + nextYear;
+    }
+    //end
+
+    const countDown = new Date(birthday).getTime(),
+        x = setInterval(function () {
+
+            const now = new Date().getTime(),
+                distance = countDown - now;
+
+            document.getElementById('days').innerHTML = ( Math.floor((distance / (day))));
+            document.getElementById('hours').innerHTML = ( Math.floor((distance % (day)) / (hour)));
+            document.getElementById('min').innerHTML = Math.floor((distance % (hour)) / (minute));
+            document.getElementById('sec').innerHTML = Math.floor((distance % (minute)) / second);
+
+            //do something later when date is reached
+            if (distance < 0) {
+                clearInterval(x);
+            }
+            //seconds
+        }, 1000)
+</script>
